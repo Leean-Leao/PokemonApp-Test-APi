@@ -1,0 +1,65 @@
+.home-content {
+  --background: #fff; /* Fundo branco */
+  text-align: center;
+
+  .header {
+    background-color: #d52b1e; /* Vermelho do cabeçalho */
+    color: #fff; /* Texto branco */
+    ion-title {
+      font-weight: bold; /* Negrito para o título */
+    }
+  }
+
+  .intro {
+    margin: 20px;
+    color: #d52b1e; /* Vermelho Pokémon */
+    
+    h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      text-shadow: 1px 1px #ffcc00; /* Sombra amarela no texto */
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #555; /* Cor do texto */
+      margin: 10px 0;
+    }
+  }
+
+  .pokedex-image {
+    width: 80%; /* Largura da imagem da Pokédex */
+    max-width: 400px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza a imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+  }
+
+  .button-container {
+    margin-top: 40px;
+
+    .custom-button {
+      background-color: #d52b1e; /* Vermelho para o botão */
+      color: #fff; /* Texto branco */
+      font-weight: bold;
+      font-size: 1.1em;
+      margin: 10px 0;
+      border-radius: 20px; /* Bordas arredondadas nos botões */
+      transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+
+      &:hover {
+        background-color: #b51d16; /* Vermelho mais escuro ao passar o mouse */
+      }
+    }
+  }
+
+  ion-button {
+    display: inline-block;
+    border-radius: 20%;
+    --background: #d52b1e; /* Vermelho para o botão flutuante */
+    --color: #fff; /* Ícone branco */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Sombra para o botão flutuante */
+    width: 80%;
+    
+  }
+}

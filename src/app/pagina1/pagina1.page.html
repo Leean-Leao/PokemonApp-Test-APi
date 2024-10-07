@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pokémons</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let pokemon of pokemons">
+      <ion-thumbnail slot="start">
+        <img *ngIf="pokemon.details" [src]="pokemon.details.sprites.front_default" alt="{{ pokemon.name }}">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ pokemon.name }}</h2>
+        <p>ID: {{ pokemon.details?.id }}</p>
+        <p *ngIf="pokemon.description">{{ pokemon.description }}</p> <!-- Exibe a descrição -->
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button routerLink="/home">
+      <ion-icon name="home"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

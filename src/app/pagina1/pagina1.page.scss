@@ -1,0 +1,29 @@
+ion-fab-button {
+    --background: #ef3d3d; /* Cor de fundo do botão */
+    --color: #000; /* Cor do ícone */
+  }
+  ion-list {
+    --background: #fff; /* Fundo branco */
+  }
+  
+  ion-item {
+    width: 80%; /* Largura da imagem da Pokédex */
+    max-width: 400px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza a imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.327); /* Sombra para destaque */
+  }
+  
+  ion-thumbnail {
+    border-radius: 5px; /* Bordas arredondadas na imagem */
+  }
+  
+  h2 {
+    color: #fbfbfb; /* Título em vermelho */
+    font-weight: bold; /* Negrito */
+  }
+  
+  p {
+    color: #555; /* Texto da descrição e ID */
+  }
+  

@@ -1,0 +1,47 @@
+ion-fab-button {
+    --background: #ef3d3d; /* Cor de fundo do botão */
+    --color: #000; /* Cor do ícone */
+  }
+.about-content {
+    --background: #fff; /* Fundo branco */
+    text-align: center;
+  
+    .header {
+      background-color: #d52b1e; /* Vermelho do cabeçalho */
+      color: #fff; /* Texto branco */
+      ion-title {
+        font-weight: bold; /* Negrito para o título */
+      }
+    }
+  
+    .intro {
+      margin: 20px;
+      color: #d52b1e; /* Vermelho Pokémon */
+      
+      h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        text-shadow: 1px 1px #ffcc00; /* Sombra amarela no texto */
+      }
+  
+      p {
+        font-size: 1.2em;
+        color: #555; /* Cor do texto */
+        margin: 10px 0;
+      }
+  
+      ul {
+        text-align: left; /* Alinha o texto das listas à esquerda */
+        margin: 0 auto; /* Centraliza a lista */
+        padding: 0;
+        list-style-type: none; /* Remove os marcadores da lista */
+        
+        li {
+          font-size: 1.1em; /* Tamanho do texto dos itens da lista */
+          color: #d52b1e; /* Vermelho Pokémon */
+          margin: 5px 0; /* Espaçamento entre os itens */
+        }
+      }
+    }
+  }
+  
